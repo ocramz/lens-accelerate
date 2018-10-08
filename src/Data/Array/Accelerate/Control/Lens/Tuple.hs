@@ -19,8 +19,10 @@ module Data.Array.Accelerate.Control.Lens.Tuple (
 
 ) where
 
-import Control.Lens
-import Control.Lens.Tuple
+-- import Control.Lens
+-- import Control.Lens.Tuple
+import Lens.Micro
+import Lens.Micro.Internal (Each(..))
 import Data.Array.Accelerate
 import Data.Array.Accelerate.Control.Lens.Lift
 

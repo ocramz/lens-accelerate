@@ -21,8 +21,9 @@ module Data.Array.Accelerate.Control.Lens.Each (
 
 ) where
 
-import Control.Lens.Each
-import Control.Lens.Traversal
+-- import Control.Lens.Each
+import Lens.Micro
+import Lens.Micro.Internal (Each(..))
 import Data.Array.Accelerate
 import Data.Array.Accelerate.Data.Complex
 import Data.Array.Accelerate.Control.Lens.Lift

@@ -23,8 +23,9 @@ module Data.Array.Accelerate.Control.Lens.Shape (
 
 ) where
 
-import Control.Lens
-import Control.Lens.Tuple
+-- import Control.Lens
+-- import Control.Lens.Tuple
+import Lens.Micro
 import Data.Array.Accelerate
 
 
